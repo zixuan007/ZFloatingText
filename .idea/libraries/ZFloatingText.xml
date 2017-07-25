@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ZFloatingText">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Nukkit/plugins/ZFloatingText.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

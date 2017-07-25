@@ -1,0 +1,37 @@
+2017-5-3 23:22:16 [INFO] Loading nukkit.yml...
+2017-5-3 23:22:16 [INFO] Loading server properties...
+2017-5-3 23:22:16 [INFO] 将 中文(简体) (chs) 设定为基本语言
+2017-5-3 23:22:16 [INFO] 正在启动支持 Minecraft: PE v1.0.7 版本的服务器
+2017-5-3 23:22:17 [INFO] 正在启动服务器在 0.0.0.0:19132
+2017-5-3 23:22:17 [INFO] 此服务器正在运行 Nukkit 1.0dev 版本 "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-5-3 23:22:17 [INFO] Nukkit 根据 LGPL 许可发行
+2017-5-3 23:22:17 [INFO] Successfully loaded 0 resource packs
+2017-5-3 23:22:17 [INFO] 读取中... FloatingText v1.0.0
+2017-5-3 23:22:17 [INFO] 准备地图中... "world"
+2017-5-3 23:22:17 [INFO] 开启中... FloatingText v1.0.0
+2017-5-3 23:22:17 [INFO] 浮空粒子插件开启
+2017-5-3 23:22:17 [ALERT] java.lang.RuntimeException: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Float
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:450)
+	at cn.nukkit.Server.enablePlugin(Server.java:634)
+	at cn.nukkit.Server.enablePlugins(Server.java:623)
+	at cn.nukkit.Server.<init>(Server.java:470)
+	at cn.nukkit.Nukkit.main(Nukkit.java:68)
+Caused by: java.lang.ClassCastException: java.lang.Double cannot be cast to java.lang.Float
+	at cn.plugin.Main.getPos(Main.java:40)
+	at cn.plugin.Manager.FloatingTextManager.lambda$init$0(FloatingTextManager.java:31)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at cn.plugin.Manager.FloatingTextManager.init(FloatingTextManager.java:30)
+	at cn.plugin.Manager.FloatingTextManager.<init>(FloatingTextManager.java:25)
+	at cn.plugin.command.ztext.<init>(ztext.java:34)
+	at cn.plugin.Main.onEnable(Main.java:30)
+	at cn.nukkit.plugin.PluginBase.setEnabled(PluginBase.java:89)
+	at cn.nukkit.plugin.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:119)
+	at cn.nukkit.plugin.PluginManager.enablePlugin(PluginManager.java:446)
+	... 4 more
+
+2017-5-3 23:22:17 [INFO] 关闭中... FloatingText v1.0.0
+2017-5-3 23:22:18 [INFO] 启动 GS4 状态监听器
+2017-5-3 23:22:18 [INFO] 将 Query 端口设定为 19132
+2017-5-3 23:22:18 [INFO] Query 运行在 0.0.0.0:19132
+2017-5-3 23:22:18 [INFO] 默认的游戏模式为：生存模式
+2017-5-3 23:22:18 [INFO] 启动完成 (2.064s)！如需帮助，请输入 "help" 或 "?"

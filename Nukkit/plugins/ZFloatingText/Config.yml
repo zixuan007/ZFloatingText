@@ -1,0 +1,18 @@
+bb:
+  X: 91
+  Y: 15
+  Z: 141
+  Level: world
+  Line0: SASD
+  Line1: ADSA
+  Line2: ASDA
+  Line3: SADA
+AS:
+  X: 89
+  Y: 15
+  Z: 138
+  Level: world
+  Line0: BB
+  Line1: CC
+  Line2: SDAS
+  Line3: ASDAS

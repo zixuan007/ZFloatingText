@@ -1,0 +1,8 @@
+name: ZFloatingText
+main: cn.plugin.Main
+version: "1.0.0"
+api: ["1.0.0"]
+author: zixuan
+permissions:
+  Main.commmand.zxtext:
+    default: op

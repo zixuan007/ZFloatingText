@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ZFloatingText">
+    <output-path>$PROJECT_DIR$/Nukkit/plugins</output-path>
+    <root id="archive" name="ZFloatingText.jar">
+      <element id="module-output" name="ZFloatingText" />
+      <element id="dir-copy" path="$PROJECT_DIR$/resource" />
+    </root>
+  </artifact>
+</component>
